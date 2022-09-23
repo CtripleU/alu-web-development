@@ -14,9 +14,19 @@ body{
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: aqua;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+#logo {
+    font-size: 100px;
+    display: inline;
+}
+
+header, footer{
+    background-color: blueviolet;
 }
